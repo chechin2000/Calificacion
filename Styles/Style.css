@@ -1,0 +1,161 @@
+* {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 400;
+}
+
+/* Big Style */
+
+@media screen and (min-width: 500px) {
+main {
+	padding: 2em;
+	width: 100vw;
+	height: 100%;
+	max-width: 100%;
+	min-height: 100vh;
+	display: flex;
+	background: hsl(216, 12%, 8%);
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	width: 25%;
+	min-width: 425px;
+	background: hsl(213, 19%, 18%);
+	border-radius: 20px;
+	padding: 1.5em;
+}
+
+.btn-gray {
+	background: #aaa2;
+	font-size: 1em;
+	border: none;
+	padding: 0.5em;
+	border-radius: 50%;
+	width: 3em;
+	height: 3em;
+	min-height: 50px;
+	min-width: 50px;
+}
+
+}
+
+/*Mini Style*/
+
+@media screen and (max-width: 499px) {
+main {
+	padding: 2em;
+	width: 100vw;
+	height: 100%;
+	max-width: 100%;
+	min-height: 100vh;
+	display: flex;
+	background: hsl(216, 12%, 8%);
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	width: 30%;
+	min-width: 275px;
+	background: hsl(213, 19%, 18%);
+	border-radius: 20px;
+	padding: 1.5em;
+}
+
+.btn-gray {
+	background: #aaa2;
+	font-size: 0.80em;
+	border: none;
+	padding: 0.5em;
+	border-radius: 50%;
+	width: 3em;
+	height: 3em;
+	min-height: 25px;
+	min-width: 25px;
+}
+}
+
+/*General Styles*/
+
+section p, section button, section div {
+	margin: 0.7em 0;
+}
+
+.btn-gray img {
+	width: 60%;
+}
+
+.txt-white {
+	color: #fff;
+	font-size: 1.50em;
+	font-weight: bold;
+}
+
+.txt-gray {
+	color: hsl(217, 12%, 63%);
+	font-size: 1em;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.buttons button {
+	color: #fff;
+	cursor: pointer;
+	transition: 0.25s;
+}
+
+.buttons button:hover {
+	background: hsl(25, 97%, 53%);
+}
+
+.buttons button:focus{
+	background: hsl(217, 12%, 63%);
+}
+
+.container-submit{
+	text-align: center;
+}
+
+.submit {
+	width: 90%;
+	border-radius: 20px;
+	padding: 0.8em;
+	border: none;
+	color: #fff;
+	background: hsl(25, 97%, 53%);
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.35s;
+}
+
+.submit:hover{
+	background: #fff;
+	color: hsl(25, 97%, 53%);
+}
+
+.center {
+	text-align: center;
+	margin: 1.5em 0;
+}
+
+.center:nth-child(3){
+	margin: 0 0 -0.5em 0;
+}
+
+.punteo {
+	display: inline-block;
+	width: 70%;
+	min-width: 230px;
+	background: #fff;
+	border-radius: 20px;
+	padding: 0.7em;
+	background: #aaa2;
+	color: hsl(25, 97%, 53%);
+	margin: auto;
+}
+
